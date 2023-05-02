@@ -1,68 +1,72 @@
+li {
+    list-style: none;/*  quita los puntos de la lista */
+}
 .skills{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 20px;
+    background-color: #252A2E;/*  color de fondo */
+    color: #fff;/*  color de letra */
+    padding: 50px 20px;/*  padding de arriba y abajo 50px y de izquierda y derecha 20px */
 }
 .skills .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
+    max-width: 1100px;/*  ancho maximo de la seccion */
+    margin: auto;/*  centra el contenido */
 }
 .skills h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
+    font-size: 48px;/*  tamaño de la letra */
+    font-family: 'Righteous';/*  tipo de letra */
+    text-align: center;/*  alinea el texto al centro */
+    padding: 20px 0;/*  padding de arriba y abajo 20px y de izquierda y derecha 0 */
 
 }
 .skills .fila{
-    display: flex;
+    display: flex;/*  flexbox */
 }
 .skills .fila .col{
-    width: 50%;
-    padding: 0 20px;
+    width: 50%;/*  ancho de la columna */
+    padding: 0 20px;/*  padding de arriba y abajo 0 y de izquierda y derecha 20px */
 }
 .skills .fila {
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
+    font-size: 28px;/*  tamaño de la letra */
+    font-family: 'Righteous';/*  tipo de letra */
+    margin-bottom: 25px;/*  margen de abajo 25px */
 }
 .skills .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
+    font-weight: bold;/*  negrita */
+    display: block;/*  bloque */
+    margin-bottom: 10px;/*  margen de abajo 10px */
 }
 .skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
+    height: 8px;/*  altura de la barra */
+    width: 80%;/*  ancho de la barra */
+    background-color: #576069;/*  color de fondo de la barra */
+    position: relative;/*  posicion relativa */
+    margin-bottom: 30px;/*  margen de abajo 30px */
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
+    background-color: #1CB698;/*  color de fondo de la barra */
+    position: absolute;/*  posicion absoluta */
+    top: 0;/*  arriba 0 */
+    left: 0;/*  izquierda 0 */
+    height: 8px;/*  altura de la barra */
 }
 .skills .skill .barra-skill span{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
+    position: absolute;/*  posicion absoluta */
+    height: 40px;/*  altura de la barra */
+    width: 40px;/*  ancho de la barra */
+    background-color: #1CB698;/*  color de fondo de la barra */
+    border-radius: 50px;/*  borde redondeado */
+    line-height: 40px;/*  altura de linea 40px */
+    text-align: center;/*  alinea el texto al centro */
+    top: -17px;/*  arriba -17px */
+    right: -15px;/*  derecha -15px */
+    font-size: 14px;/*  tamaño de la letra */
 }
 /* Estas clases se agregaran dinamicamente mediante javascript cuando lo consiga
 .skills .skill .javascript{
-    width: 0%;
-    animation: 2s javascript forwards;
+    width: 0%;/*  ancho de la barra */
+    /*animation: 2s javascript forwards;/*  animacion de 2 segundos */
+    /*
 }
-@keyframes javascript {
+@keyframes  {
     0%{width: 0%;}
     100%{width: 75%;}
 }
@@ -118,26 +122,26 @@
 
 /*iconos*/
 .iconoSkill{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 20px;
-    width: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-color: #3a4146;/*  color de fondo */
+    color: #fff;/*  color de letra */
+    padding: 50px 20px;/*  padding de arriba y abajo 50px y de izquierda y derecha 20px */
+    width: 100px;/*  ancho de la columna */
+    display: flex;/*  flexbox */
+    flex-wrap: wrap;/*  envuelve los elementos */
+    border-radius: 10px;/*  borde redondeado */
+    flex-direction: column;/*  direccion de los elementos */
+    align-items: center;/*  alinea los elementos al centro */
+    justify-content: center;/*  justifica los elementos al centro */
 
 }
-@media screen and (max-width:700px){
-    .skills .fila{
-        display: block;
+@media screen and (max-width:700px){/*  media query */
+    .skills .fila{/*  flexbox */
+        display: block;/*  bloque */
     }
     .skills .fila .col{
-        width: 100%;
+        width: 100%;/*  ancho de la columna */
     }
     .skills .fila .col .barra-skill{
-        width: 100%;
+        width: 100%;/*  ancho de la barra */
     }
 }

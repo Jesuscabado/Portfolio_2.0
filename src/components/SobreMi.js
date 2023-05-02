@@ -3,13 +3,13 @@ import './css/Common.css';
 const SobreMi = () => {
 
     return (
-        <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
+        <section id="sobremi" className="sobremi">
+        <div className="contenido-seccion">
             <h2>Sobre Mí</h2>
             <p><span>Hola, soy Jesús Cabado.</span> Iniciandome en el mundo del desarrollo web. </p>
 
-            <div class="fila">
-                <div class="col">
+            <div className="fila">
+                <div className="col">
                     <h3>Datos Personales</h3>
                     <ul>
                         <li>
@@ -22,23 +22,23 @@ const SobreMi = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div className="col">
                     <h3>Aficiones</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
+                    <div className="contenedor-intereses">
+                        <div className="interes">
+                            <i className="fa-solid fa-gamepad"></i>
                             <span>JUEGOS</span>
                         </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-film"></i>
+                        <div className="interes">
+                            <i className="fa-solid fa-film"></i>
                             <span>CINE</span>
                         </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
+                        <div className="interes">
+                            <i className="fa-solid fa-book"></i>
                             <span>LIBROS</span>
                         </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
+                        <div className="interes">
+                            <i className="fa-solid fa-headphones"></i>
                             <span>MUSICA</span>
                         </div>
                        
@@ -47,8 +47,8 @@ const SobreMi = () => {
             </div>
             <br></br>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
+                Descargar CV <i className="fa-solid fa-download"></i>
+                <span className="overlay"></span>
             </button>
         </div>
     </section>

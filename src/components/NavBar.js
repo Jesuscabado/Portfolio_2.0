@@ -2,15 +2,15 @@
 import './css/NavBar.css'
 import './css/Common.css';
 const NavBar = () => {
-    const mostrarOcultarMenu = () => {
-        if(document.getElementById('nav').classList.contains('responsive')){
-            document.getElementById('nav').classList.remove('responsive');
+    const mostrarOcultarMenu = () => {//funcion para mostrar y ocultar el menu
+        if(document.getElementById('nav').classList.contains('responsive')){//si tiene la clase responsive
+            document.getElementById('nav').classList.remove('responsive');//remueve la clase responsive
         }else{
-            document.getElementById('nav').classList.add('responsive');
+            document.getElementById('nav').classList.add('responsive');//si no tiene la clase responsive la agrega
         }
     }
-    const ocultarMenu = () => {
-        document.getElementById('nav').classList.remove('responsive');
+    const ocultarMenu = () => {//funcion para ocultar el menu
+        document.getElementById('nav').classList.remove('responsive');//remueve la clase responsive
     }
 
     return (
@@ -23,7 +23,7 @@ const NavBar = () => {
                 <nav id= 'nav'>
                     <ul>
                         <li className='NavBarBotton'>
-                            <a href='#inicio'onClick={ocultarMenu}>INICIO</a>
+                            <a href='#inicio'onClick={ocultarMenu}>INICIO</a>{/* //cuando se hace click en el boton se ejecuta la funcion ocultarMenu */}
                         </li>
                         <li className='NavBarBotton'>
                             <a href='#sobremi' onClick={ocultarMenu}>Sobre Mi</a>
@@ -39,8 +39,8 @@ const NavBar = () => {
                         </li>
                     </ul>
                 </nav>
-                <div className='nav-responsive'onClick={mostrarOcultarMenu}></div>
-                <i class="fa-light fa-bars"></i>           
+                <div className='nav-responsive'onClick={mostrarOcultarMenu}></div>{/* cuando se hace click en el boton se ejecuta la funcion mostrarOcultarMenu */}
+                <i class="fa-duotone fa-bars-staggered"></i>         
          </header>
         </div>
     );

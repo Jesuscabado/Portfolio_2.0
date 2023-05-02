@@ -8,7 +8,7 @@ const Contact = () => {
                 <div className="fila">
                     <div className="col">
                         <input type="text" placeholder="Tú Nombre"></input>
-                        <input type="text" placeholder="Número telefónico"></input>
+                        <input type="text" placeholder="Número de teléfono"></input>
                         <input type="text" placeholder="Dirección de correo"></input>
                         <input type="text" placeholder="Tema"></input>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
