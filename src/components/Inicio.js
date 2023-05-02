@@ -4,6 +4,7 @@ import './css/Common.css';
 const Inicio = () => {
     return (
         <section id='inicio' className='inicio'>
+            <link rel="icon" type="im" href="https://img.icons8.com/?size=512&id=19602&format=png"/>
             <div className='contenido-banner'>
                 <div className='contenedor-img'>
                     <img src='img/MisFotos/MiFoto.png' alt='foto' />
