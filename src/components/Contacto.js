@@ -13,7 +13,9 @@ const Contact = () => {
                         <input type="text" placeholder="Tema"></input>
                         <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                         <button >
-                            Enviar Mensaje<i className="fa-solid fa-paper-plane"></i>
+                            Enviar Mensaje
+                            <br></br>
+                            <i className="fa-solid fa-paper-plane"></i>
                             <span className="overlay"></span>
                         </button>
                     </div>

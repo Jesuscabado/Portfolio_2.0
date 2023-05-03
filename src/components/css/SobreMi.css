@@ -55,6 +55,9 @@ h2, p {
     font-weight: bold;
     border-radius: 5px;
 }
+.datosLi {
+    font-size: 20px;
+}
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;

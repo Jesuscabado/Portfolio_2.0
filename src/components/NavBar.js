@@ -26,7 +26,7 @@ const NavBar = () => {
                             <a href='#inicio'onClick={ocultarMenu}>INICIO</a>{/* //cuando se hace click en el boton se ejecuta la funcion ocultarMenu */}
                         </li>
                         <li className='NavBarBotton'>
-                            <a href='#sobremi' onClick={ocultarMenu}>Sobre Mi</a>
+                            <a href='#sobremi' onClick={ocultarMenu}>SOBRE MI</a>
                         </li>
                         <li className='NavBarBotton'>
                             <a href='#skills' onClick={ocultarMenu}>SKILLS</a>

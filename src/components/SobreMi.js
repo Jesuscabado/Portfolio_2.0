@@ -12,12 +12,12 @@ const SobreMi = () => {
                 <div className="col">
                     <h3>Datos Personales</h3>
                     <ul>
-                        <li>
+                        <li className='datosLi'>
                             <strong>Email</strong>
                             <span>jesuscabado@hotmail.com</span>
                         </li>
-                        <li>
-                            <strong>Cargo</strong>
+                        <li className='datosLi'>
+                            <strong>Ocupacion</strong>
                             <span>Estudiante</span>
                         </li>
                     </ul>
