@@ -61,21 +61,21 @@ li {
     font-size: 14px;/*  tamaño de la letra */
 }
 /* Estas clases se agregaran dinamicamente mediante javascript cuando lo consiga */
-.skills .skill .javascript{
+.skills .skill .JS{
     width: 0%;/*  ancho de la barra */
-    *animation: 2s javascript forwards;/*  animacion de 2 segundos */
+    animation: 2s js forwards;/*  animacion de 2 segundos */
 }
-@keyframes  javascript{
+@keyframes  js{
     0%{width: 0%;}
-    100%{width: 75%;}
+    30%{width: 0%;}
 }
 .skills .skill .html{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s html forwards;
 }
 @keyframes html {
     0%{width: 0%;}
-    100%{width: 80%;}
+    80%{width: 0%;}
 }
 .skills .skill .Css{
     width: 0%;
@@ -83,7 +83,7 @@ li {
 }
 @keyframes css {
     0%{width: 0%;}
-    100%{width: 60%;}
+    60%{width: 0%;}
 }
 .skills .skill .React{
     width: 0%;
@@ -91,7 +91,7 @@ li {
 }
 @keyframes react {
     0%{width: 0%;}
-    20%{width: 60%;}
+    60%{width: 0%;}
 }
 .skills .skill .Node{
     width: 0%;
@@ -99,15 +99,15 @@ li {
 }
 @keyframes node {
     0%{width: 0%;}
-    40%{width: 40%;}
+    40%{width: 100%;}
 }
-.skills .skill .Mongo{
+.skills .skill .MongoDB{
     width: 0%;
     animation: 2s mongo forwards;
 }
 @keyframes mongo {
     0%{width: 0%;}
-    50%{width: 50%;}
+    50%{width: 0%;}
 }
 .skills .skill .Git{
     width: 0%;
@@ -115,7 +115,7 @@ li {
 }
 @keyframes git {
     0%{width: 0%;}
-    80%{width: 80%;}
+    60%{width: 0%;}
 }
 
 

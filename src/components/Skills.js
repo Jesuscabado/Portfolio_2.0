@@ -14,7 +14,7 @@ const Skills = [
       ProgressEvent: 60,
     },
     {
-        name: 'JavaScript',
+        name: 'JS',
         image: 'img/skills/js.png',
         link: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
         ProgressEvent: 40,
@@ -34,8 +34,6 @@ const Skills = [
     {
         name: 'MongoDB',
         image: 'img/skills/mongo.webp',
-        link: 'https://www.mongodb.com/es',
-        ProgressEvent: 50,
     },
     {
         name: 'Git',
@@ -57,12 +55,12 @@ const Skills = [
               <ul className="col">
                 {Skills.map((skill, index) => (
                   <li className="skill"key={index}>
-                    <a href={skill.link}>
+                    <a href={skill.link} target="_blank">
                       <img className ="iconoSkill"src={skill.image} alt={skill.name} />
                     </a>
                     <div className="barra-skill">
-                      <div className="progreso" style={{ width: `${skill.ProgressEvent}%` }}></div>
-                  <span className={skill.name}>{skill.ProgressEvent}%</span>
+                      <div className={skill.name+" progreso"}style={{ width: `${skill.ProgressEvent}%` }}></div>
+                  <span >{skill.ProgressEvent}%</span>
                 </div> 
               </li>
             ))}
